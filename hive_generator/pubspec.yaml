@@ -11,7 +11,10 @@ dependencies:
   build: ^2.0.0
   source_gen: ^1.0.0
   hive:
-    path: ../hive
+    git:
+      url: https://github.com/krida2000/hive.git
+      ref: optimize-using-hive-from-git
+      path: hive/
   analyzer: ">=4.6.0 <6.0.0"
   source_helper: ^1.1.0
 
